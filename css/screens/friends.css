@@ -1,4 +1,22 @@
 #friends-display-link {
     text-align: center;
     display: block;
+    background-color: #fafafa;
+    padding: 10px 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#friends-display-link i:first-child {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#friends-display-link i:last-child {
+    color: rgba(0, 0, 0, 0.2);
+    margin-left: 15px;
+    margin-top: 1px;
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
 }
