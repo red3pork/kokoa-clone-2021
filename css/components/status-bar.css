@@ -1,17 +1,17 @@
 .status-bar {
-    position: fixed;
-    top: 0;
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 5px 3px;
     font-weight: 600;
+    box-sizing: border-box;
+    background-color: white;
 }
 .status-bar__column {
     width: 33%;
 }
 .status-bar__column:first-child span {
-    margin-right: 5px;
+    margin-right: 1px;
 }
 .status-bar__column:nth-child(2) {
     display: flex;

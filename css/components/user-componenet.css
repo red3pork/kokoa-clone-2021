@@ -46,7 +46,6 @@
 }
 
 
-
 .user-component__column:last-child {
     color:rgba(0, 0, 0, 0.4);
     display: flex;
@@ -57,4 +56,15 @@
 .user-component__time {
     display: block;
     margin-bottom: 10px;
+}
+
+.user-component__phone-number {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__phone-number i {
+    padding-top: 10px;
+    margin-left: 5px;
+    color: tomato;
 }
